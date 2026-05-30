@@ -19,18 +19,24 @@ const Splash: React.FC = () => {
             <div className="absolute bottom-0 left-0 w-72 h-72 bg-tertiary-container/20 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4"></div>
 
             {/* Logo Container */}
-            <div className="flex flex-col items-center z-10 animate-fade-in-up">
-                <div className="w-48 h-48 mb-8 rounded-[40px] bg-primary-container shadow-[0_8px_32px_rgba(16,185,129,0.3)] flex items-center justify-center">
-                    <span className="material-symbols-outlined text-on-primary-container" style={{ fontSize: '96px', fontVariationSettings: "'FILL' 1" }}>
-                        eco
-                    </span>
-                </div>
-                
-                <h1 className="font-display-lg text-display-lg text-primary tracking-tight">
+            <div className="flex flex-col items-center justify-center animate-fade-in-up">
+                <img 
+                    src="/logo.png" 
+                    alt="AkaraSirkula Logo" 
+                    className="w-32 h-32 mb-lg object-contain"
+                    onError={(e) => {
+                        // Fallback jika logo.png belum dimasukkan
+                        e.currentTarget.style.display = 'none';
+                        const fallbackText = document.getElementById('logo-fallback-text');
+                        if (fallbackText) fallbackText.style.display = 'block';
+                    }}
+                />
+                <h1 id="logo-fallback-text" className="font-display-lg text-[32px] font-bold text-on-primary mb-xs" style={{ display: 'none' }}>
                     AkaraSirkula
                 </h1>
-                <p className="font-body-lg text-body-lg text-n600-secondary-text mt-2 text-center max-w-[280px]">
-                    Langkah Kecil, Dampak Sirkular.
+                <p className="font-body-lg text-[16px] text-primary-container text-center max-w-[280px]">
+                    Langkah kecil untuk bumi, <br/>
+                    berdampak besar untuk semua.
                 </p>
             </div>
 

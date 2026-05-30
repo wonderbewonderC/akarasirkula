@@ -59,7 +59,7 @@ const OrdersUMKM: React.FC = () => {
                             </div>
                             
                             <div className="flex gap-md pt-sm">
-                                <img alt="Tas Belanja" className="w-[60px] h-[60px] rounded-md object-cover border border-n300-border" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDek-bFxNwUVp7-JjiFNEz9tDw5s5biOqQfdywMbU_x_q1ec6B-Sn7kbsMTI0YrQvlKAOdq99p1b72cvjdrYVrhIo-nUpyPVgscehMZEy9qt2pqkfJ6lUEuGkDZYqyvJEypS5KmCRhJEoqasyhiJlUV8-M84LXKA4CuKDU61oAxEW4WW05zN5b_1ZhH8y3UgdxS0nYYvkw32kklkWO8owDXSELGaIqSFEf5TR7PCY8lymLn1Rd68NewpZkZDOH2A0QEySx6RZ0NLCM" />
+                                <img alt="Tas Belanja" className="w-[60px] h-[60px] rounded-md object-cover border border-n300-border" src="https://picsum.photos/seed/18/400/400" />
                                 <div className="flex flex-col flex-1 justify-center">
                                     <h3 className="font-body-lg text-[16px] font-bold text-on-surface line-clamp-1">Tas Belanja Kanvas Recycled</h3>
                                     <p className="font-caption text-[12px] text-n600-secondary-text">2x Barang</p>
@@ -98,7 +98,7 @@ const OrdersUMKM: React.FC = () => {
                             </div>
                             
                             <div className="flex gap-md pt-sm">
-                                <img alt="Set Alat Makan" className="w-[60px] h-[60px] rounded-md object-cover border border-n300-border" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx-BQ9kMuu98elaR4fOMKpk_SP6ATUYSOR0EN40i3bMSqIzIAtq3gXbW2pIjqMFEHkXYHDms3XPWnCG1TcM6Nl3PYm9QfzJMSR1-dK7CekNmfu_J2i5_AmISsD8W2bgmz_d6GF-hkzjBowX-2AMEnpWcQDzmXqiIUQPDFOCamy164-Vw4tgYmYYRH8mbHXYbX-In15C4vabOJh3zsOcN0ty7kalh6Cu-Z0Zgmm4Np2aU-lvpeM_Y8yee0XvKbrsplt2EgIZvTedSM" />
+                                <img alt="Set Alat Makan" className="w-[60px] h-[60px] rounded-md object-cover border border-n300-border" src="https://picsum.photos/seed/19/400/400" />
                                 <div className="flex flex-col flex-1 justify-center">
                                     <h3 className="font-body-lg text-[16px] font-bold text-on-surface line-clamp-1">Set Alat Makan Bambu</h3>
                                     <p className="font-caption text-[12px] text-n600-secondary-text">1x Barang</p>

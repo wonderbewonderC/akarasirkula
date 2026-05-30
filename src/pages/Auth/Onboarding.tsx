@@ -6,7 +6,7 @@ const onboardingData = [
         id: 1,
         title: "Pilah & Setor Limbah",
         description: "Ubah sampah anorganikmu menjadi nilai. Mulai dari botol plastik, kertas, hingga elektronik.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K", // Just a placeholder, we can adjust if needed
+        image: "https://picsum.photos/seed/2/400/400", // Just a placeholder, we can adjust if needed
         icon: "recycling",
         color: "bg-primary-container text-on-primary-container"
     },
@@ -14,7 +14,7 @@ const onboardingData = [
         id: 2,
         title: "Kumpulkan Akara Points",
         description: "Setiap gram sampah yang disetor akan dikonversi menjadi Akara Points. Kumpulkan dan nikmati keuntungannya.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K", 
+        image: "https://picsum.photos/seed/3/400/400", 
         icon: "generating_tokens",
         color: "bg-tertiary-container text-on-tertiary-container"
     },
@@ -22,7 +22,7 @@ const onboardingData = [
         id: 3,
         title: "Dukung Bisnis Berkelanjutan",
         description: "Tukarkan poin Anda dengan produk upcycle unik atau belanja kebutuhan harian dari mitra UMKM kami.",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K", 
+        image: "https://picsum.photos/seed/4/400/400", 
         icon: "storefront",
         color: "bg-secondary-container text-on-secondary-container"
     }

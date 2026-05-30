@@ -50,7 +50,7 @@ const Login: React.FC = () => {
             <div className="relative h-[240px] w-full bg-primary-container shrink-0 rounded-b-[40px] overflow-hidden shadow-lg">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-primary/80 z-10"></div>
                 <img 
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFYhE79tI0iWJp6t4b2pS_75cI0-8n7i6zH3266qL3P4H4xO7rL9L8P5E6yV1wR9nE_3_X1w1_4uK_vJ_N9u_6kE_uN0uR0_3T_x5S8q0_zN9A5B4C2D1E0"
+                    src="https://picsum.photos/seed/1/400/400"
                     alt="Eco Background" 
                     className="w-full h-full object-cover mix-blend-overlay"
                 />

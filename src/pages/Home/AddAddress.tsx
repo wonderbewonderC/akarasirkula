@@ -27,7 +27,7 @@ const AddAddress: React.FC = () => {
                         <img 
                             alt="Map Preview" 
                             className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" 
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMZE4kxgGo8lm6uc59rpxzHWxOz2DFNiW9di0ss_TivDcUyX6ZTgEm95u8549HIBFuJIsp9hEydUlhP1JVkrCc1a4V8bRPpFoC1XL15ukxg7LWdt1Uh2JKfVu67tElv-exHLLptsekptnBmJm-zYkqusYKl_-6qZgh_3eawAUP2ycUcc2ur2uRwDcJ_ejjKifTfNuHWDtP0TAMUDE4YU7S1DEW75suCZbwWfNqT9g3BKoaWuNaQTQ_PsbveoLDFqOvlzeCm4rSM6U"
+                            src="https://picsum.photos/seed/6/400/400"
                         />
                         {/* Center Pin */}
                         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">

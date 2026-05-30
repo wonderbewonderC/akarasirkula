@@ -9,7 +9,7 @@ const products = [
         name: "Tas Tote Kain Perca",
         partner: "EcoCraft Bandung",
         price: "15.000 pts",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K",
+        image: "https://picsum.photos/seed/9/400/400",
         rating: "4.8",
         sold: "120"
     },
@@ -18,7 +18,7 @@ const products = [
         name: "Beras Organik 5kg",
         partner: "Tani Makmur",
         price: "45.000 pts",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDFYhE79tI0iWJp6t4b2pS_75cI0-8n7i6zH3266qL3P4H4xO7rL9L8P5E6yV1wR9nE_3_X1w1_4uK_vJ_N9u_6kE_uN0uR0_3T_x5S8q0_zN9A5B4C2D1E0",
+        image: "https://picsum.photos/seed/10/400/400",
         rating: "4.9",
         sold: "500+"
     },
@@ -27,7 +27,7 @@ const products = [
         name: "Pot Bunga Daur Ulang",
         partner: "Green Living",
         price: "8.500 pts",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K",
+        image: "https://picsum.photos/seed/11/400/400",
         rating: "4.7",
         sold: "85"
     },
@@ -36,7 +36,7 @@ const products = [
         name: "Minyak Goreng 2L",
         partner: "Koperasi Warga",
         price: "30.000 pts",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDFYhE79tI0iWJp6t4b2pS_75cI0-8n7i6zH3266qL3P4H4xO7rL9L8P5E6yV1wR9nE_3_X1w1_4uK_vJ_N9u_6kE_uN0uR0_3T_x5S8q0_zN9A5B4C2D1E0",
+        image: "https://picsum.photos/seed/12/400/400",
         rating: "4.9",
         sold: "1k+"
     }

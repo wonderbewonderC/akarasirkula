@@ -26,7 +26,7 @@ const ProfileUMKM: React.FC = () => {
             <section className="flex flex-col items-center px-lg pt-[80px] pb-xxl">
                 <div className="relative mb-lg mt-md">
                     <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-surface shadow-md bg-n100-surface">
-                        <img alt="Profile Photo" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD39FXQ3TmONblyPPBfdUcvNPWxGnw9nav5F3lznTSHuWUB4M2ykeui7QgbpFqF6XLtYr_bYMdjudpbf9YqRpwIc3zuODtQgrApgP5F2Lsy0mmJEZ8XHwcUNH-6nEeodHkrYz5dyYpKR9VM9KaelW6uREYsjU4uHPkV18aT13b6gCc9z2KpmO69H-IZ9HgFY9SJJdsjH_YlydIuPRIsvHE_XEXsIJdmikHg7B1GRpFGpulkXX0GnzCTTBlNwPuU4Jm7m-ZmW3jyxyc" />
+                        <img alt="Profile Photo" className="w-full h-full object-cover" src="https://picsum.photos/seed/22/400/400" />
                     </div>
                     <button 
                         onClick={() => navigate('/umkm/profile/edit')}

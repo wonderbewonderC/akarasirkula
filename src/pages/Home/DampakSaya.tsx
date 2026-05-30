@@ -10,7 +10,7 @@ const DampakSaya: React.FC = () => {
                     <img 
                         alt="A vibrant, stylized illustration of a globe surrounded by lush green leaves and nature elements. The design is modern, clean, and optimistic, using shades of primary green and soft teals against a bright white background. It conveys a sense of environmental stewardship and circular economy, matching a sleek, eco-minimalist app UI." 
                         className="w-full h-full object-cover mix-blend-multiply opacity-90" 
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuALzHsfBlBJg3M3Xn2Urd15OZ5TvxV-fxrZSSfrgFEXFzZjQSsmfUcjjvPyHkjRUZfhSV9CV41gOt8vzH7AvOqDMTySPbg36JOmbcIMqiFdDdrFue79oTiqXBHhdcEI0r-tjYeLq6Xb3jJnu4FCXCUOJI3qpC8lVvCTsiGoZg85-EcJ8eF7he4nS67ythfhJ2R2WjeNFfq5PwN_QahwYNRnO__ceQbvuVU7S0162YeIWzdDb_XkroMENFho2LS-cL-sozs_4yVxlrE"
+                        src="https://picsum.photos/seed/7/400/400"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-primary-container/20 to-transparent"></div>
                 </div>

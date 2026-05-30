@@ -45,7 +45,7 @@ const EditProfile: React.FC = () => {
                         <img 
                             alt="User Profile Photo" 
                             className="w-full h-full object-cover" 
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1_v9m9KfiYVVRkACiCkwZuc6eMg8vIc2HjblIdyBn5LVKvZavE1_p5y9TqjAtOIIUkqUCHvritliB8S5UBVKetPOU6NjdxaASvsFQl_DHtWVAJHNzTbLItT4PO2_vfhL6ms9RH2DOSOHerqMbYwmRG_cN7CEUizRKxRKIdAxbWcWWI-i7sUPOcKEifbuE2kzVomHxuteBJDcUg2s53cqA4LDgsm3qnHwulUiy0mZ1lXOKom100_vWj8HZvJHqZYlD7ieb2QsRulQ"
+                            src="https://picsum.photos/seed/8/400/400"
                         />
                     </div>
                     <button 

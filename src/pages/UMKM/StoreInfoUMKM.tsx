@@ -24,7 +24,7 @@ const StoreInfoUMKM: React.FC = () => {
                     <img 
                         className="w-full h-full object-cover" 
                         alt="A brightly lit, modern workshop space" 
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnlhHCD-XOJwDIR1mdRc_oiE0tjy2zyZWZK-SoaZhBgvxJtvxlMmMqYfd48v7_XW0WFriT8f-_hiTP91eBt3i1LgLDnWhzhDohD0Y4FpyFlBv7SCsI756Q1TDWFto5aPbjZVc5PLGcXSzejUqcoQZ9WqPotRqSPff8IOS2VL48reDS2Y1CF89-xJQJSp5Vgo1EXHyAYp-EFTFPWYiAPpB6667xdBKIr2Grhrdnt_Gx6l3zPYNv-rv1OaGpKxzY5qJY6_cLbL__Z9c"
+                        src="https://picsum.photos/seed/23/400/400"
                     />
                 </div>
 
@@ -35,7 +35,7 @@ const StoreInfoUMKM: React.FC = () => {
                         <img 
                             className="w-full h-full object-cover" 
                             alt="Profile picture" 
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC7Jri82Ywic-wZfnAZnPXrAwlkQJvwdlB6fQawK0k0EsruH2Nu57NM1biCpZWTqjI09v-_vK2hPt88krG0lWrSci8xmELkekmzvbUtVHfC8-Tkm76YvyNA3_dDGI0_fJW5mwAZatAkYQyg58YR42Qzt9137ShYPD_lk17mrtF5fM1oUTbzSnOvQBgBHh_9s7Z1K0-YyjFn7Bp60wWD1USAZ7mKoo3oA5ZF37nXKOQaYN6X-yVpZxrob2Jdp_ABrsx4PTn0MoWiakw"
+                            src="https://picsum.photos/seed/24/400/400"
                         />
                     </div>
 

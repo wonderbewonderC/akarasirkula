@@ -45,7 +45,7 @@ const Checkout: React.FC = () => {
                     
                     <div className="flex gap-3 mb-4">
                         <div className="w-20 h-20 rounded-xl bg-surface-variant overflow-hidden shrink-0">
-                            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB25-9jQxR9N0bK_QZ9D7K4J-F5qE1F7c_T0zO_P6Z_C1b_5u-J7W4K_3R6rZ3N_s_0M_x_3L_Z_C_0_9_E_3_s_Z_4b_1H_O_K" alt="Product" className="w-full h-full object-cover" />
+                            <img src="https://picsum.photos/seed/5/400/400" alt="Product" className="w-full h-full object-cover" />
                         </div>
                         <div className="flex flex-col flex-1">
                             <h3 className="font-heading-2 text-[14px] text-on-surface leading-tight mb-1">Tas Tote Kain Perca Ramah Lingkungan</h3>

@@ -65,7 +65,7 @@ const ProductsUMKM: React.FC = () => {
                     {(activeTab === 'semua' || activeTab === 'aktif') && (
                         <div className="bg-surface-container-lowest border border-n300-border rounded-xl p-md shadow-sm flex gap-md relative">
                             <div className="w-[80px] h-[80px] rounded-lg overflow-hidden shrink-0 border border-n300-border">
-                                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBx-BQ9kMuu98elaR4fOMKpk_SP6ATUYSOR0EN40i3bMSqIzIAtq3gXbW2pIjqMFEHkXYHDms3XPWnCG1TcM6Nl3PYm9QfzJMSR1-dK7CekNmfu_J2i5_AmISsD8W2bgmz_d6GF-hkzjBowX-2AMEnpWcQDzmXqiIUQPDFOCamy164-Vw4tgYmYYRH8mbHXYbX-In15C4vabOJh3zsOcN0ty7kalh6Cu-Z0Zgmm4Np2aU-lvpeM_Y8yee0XvKbrsplt2EgIZvTedSM" alt="Set Alat Mandi Bambu" className="w-full h-full object-cover" />
+                                <img src="https://picsum.photos/seed/20/400/400" alt="Set Alat Mandi Bambu" className="w-full h-full object-cover" />
                             </div>
                             <div className="flex flex-col justify-between flex-1">
                                 <div className="flex justify-between items-start">
@@ -89,7 +89,7 @@ const ProductsUMKM: React.FC = () => {
                     {(activeTab === 'semua' || activeTab === 'draft') && (
                         <div className="bg-surface-container-lowest border border-n300-border rounded-xl p-md shadow-sm flex gap-md relative opacity-80 hover:opacity-100 transition-opacity">
                             <div className="w-[80px] h-[80px] rounded-lg overflow-hidden shrink-0 border border-n300-border">
-                                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_oy71CjWTB5wRQx4ve5He2a1eBg14pvVZFuhhZlZyzGdf-7PrcUuGzNfnZzvpc3HUMji73iVjF5HOZGOxlF6BoulKIrck7BkI_zYjMlGWWNw8a3kfHfhc3RH0lUaVBf4Ih-2XCR-89tkWN6PmJOWZ6gTpZFiBnrdtVfrnJmM1o1LMMGB1kJWPxnv5wJF2tSZsIqkw_E-KCLU_oICSE5usWeOmecm7vo6gHPQI9DzSF3vOznIAAAvoKPgbdpIIqrLk6Cjm6esJWco" alt="Tote Bag Upcycle Denim" className="w-full h-full object-cover grayscale-[30%]" />
+                                <img src="https://picsum.photos/seed/21/400/400" alt="Tote Bag Upcycle Denim" className="w-full h-full object-cover grayscale-[30%]" />
                             </div>
                             <div className="flex flex-col justify-between flex-1">
                                 <div className="flex justify-between items-start">

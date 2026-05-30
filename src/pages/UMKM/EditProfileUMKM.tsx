@@ -40,7 +40,7 @@ const EditProfileUMKM: React.FC = () => {
                         <img 
                             alt="Profile" 
                             className="w-[100px] h-[100px] rounded-full object-cover border-4 border-surface shadow-sm" 
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbUqi67JPAwYd6wDaRx_tWrsENtUnt_TU85e3xx6ijF-ZqH6XuQPEryAFCM4sNHAqhXVsw9k3bot9MaCxJKyKuD6s8UGAessdkOzJH8awrRTs4jkTNFnVeZ89MmZ0L81HLkMXJ7n5iKNJE7w0bU7C3VwugPYADx-mEbIGc_NVa5njbanBZCYT2K18FZ3Je2sWmwiurCxBMSOz1QCMpPt4Q6X8fjQU9jLC3RMVp8bgEgLdtBE_37Q8RN8UBb2hrNep9LbXcZTxcXGk"
+                            src="https://picsum.photos/seed/17/400/400"
                         />
                         <div className="absolute inset-0 bg-black/40 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                             <span className="material-symbols-outlined text-white" style={{ fontVariationSettings: "'FILL' 1" }}>photo_camera</span>

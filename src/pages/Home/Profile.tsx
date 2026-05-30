@@ -15,7 +15,7 @@ const Profile: React.FC = () => {
                     <img 
                         alt="Profile photo" 
                         className="w-full h-full object-cover" 
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtMMcxo0AXy4lY8RZhEBEGEbYTNg6OGnv9wfIK8-nK83EnBZav5k79aNNEbGKYQIzwb9w9jYQQxunBH8OI7ubvMR2QeB2ph5D-DpoHMXzB_Idk6cCs_trbm8nMpHtQsWfJAXJdBXmWBrR0pMMumpLhw0hPcuWJUVUSqosJXcsWHPBkOOqkRT01fY7w-KWzLYWHQVbXHVOt0GcPXaKdU8e0_6_psS0_k4ENfdhz3TzeD5R1UfWlXXslgvQdwf2uWMWbjS8uvS5tmTg"
+                        src="https://picsum.photos/seed/13/400/400"
                     />
                 </div>
                 <h2 className="font-heading-1 text-[24px] font-bold text-on-surface mb-xs">{user?.name || 'Ahmad Rizky'}</h2>

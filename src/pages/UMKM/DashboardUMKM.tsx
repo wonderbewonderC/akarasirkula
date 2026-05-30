@@ -97,7 +97,7 @@ const DashboardUMKM: React.FC = () => {
                     {/* Product Item 1 */}
                     <div className="bg-surface-container-lowest border border-n300-border rounded-lg p-sm shadow-[0_2px_8px_rgba(0,0,0,0.04)] flex items-center">
                         <div className="w-16 h-16 rounded-md bg-n100-surface overflow-hidden mr-md flex-shrink-0 relative">
-                            <img alt="Tas Belanja Daur Ulang" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_oy71CjWTB5wRQx4ve5He2a1eBg14pvVZFuhhZlZyzGdf-7PrcUuGzNfnZzvpc3HUMji73iVjF5HOZGOxlF6BoulKIrck7BkI_zYjMlGWWNw8a3kfHfhc3RH0lUaVBf4Ih-2XCR-89tkWN6PmJOWZ6gTpZFiBnrdtVfrnJmM1o1LMMGB1kJWPxnv5wJF2tSZsIqkw_E-KCLU_oICSE5usWeOmecm7vo6gHPQI9DzSF3vOznIAAAvoKPgbdpIIqrLk6Cjm6esJWco" />
+                            <img alt="Tas Belanja Daur Ulang" className="w-full h-full object-cover" src="https://picsum.photos/seed/15/400/400" />
                         </div>
                         <div className="flex-1">
                             <h4 className="font-label-button text-[14px] font-bold text-on-surface">Tas Belanja Daur Ulang</h4>
@@ -112,7 +112,7 @@ const DashboardUMKM: React.FC = () => {
                     {/* Product Item 2 */}
                     <div className="bg-surface-container-lowest border border-n300-border rounded-lg p-sm shadow-[0_2px_8px_rgba(0,0,0,0.04)] flex items-center">
                         <div className="w-16 h-16 rounded-md bg-n100-surface overflow-hidden mr-md flex-shrink-0 relative">
-                            <img alt="Pot Bunga Estetik" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDeZDJdOlDVj67YT8AXnAAuWbCvTbVw20g0kzLeK6IFaLdvnfj2xsiFyzFoWhHmpPmhk6eAPBsVKVwcKAg9K4wDglQ6bFRmjYhHrk8kUMAfVeRVBRuO-1MjWHp7MwJDMdDc4XWt6ABd_8jrG2eDyqwAAR4gi3B4zywpLEx2KGFegofb0-gLrIvYclPtE1guyHBuHrOcx6nsMFCXKx03XF19mLgTxgW70RMUg99ZC25P5yDw0aANTwn03u-1WpjVfuGvs20IO5tisQ" />
+                            <img alt="Pot Bunga Estetik" className="w-full h-full object-cover" src="https://picsum.photos/seed/16/400/400" />
                         </div>
                         <div className="flex-1">
                             <h4 className="font-label-button text-[14px] font-bold text-on-surface">Pot Bunga Estetik</h4>
