@@ -6,37 +6,37 @@ const categories = ['Semua', 'Upcycle', 'Sembako', 'Kriya', 'Lainnya'];
 const products = [
     {
         id: 1,
-        name: "Tas Tote Kain Perca",
-        partner: "EcoCraft Bandung",
-        price: "15.000 pts",
-        image: "https://picsum.photos/seed/9/400/400",
+        name: "Tas Belanja Anyam Plastik Premium",
+        partner: "UMKM Karya Hijau",
+        price: "1,250 pts",
+        image: "https://images.unsplash.com/photo-1597484661643-2f5fef640df1?auto=format&fit=crop&q=80&w=400",
         rating: "4.8",
         sold: "120"
     },
     {
         id: 2,
-        name: "Beras Organik 5kg",
-        partner: "Tani Makmur",
-        price: "45.000 pts",
-        image: "https://picsum.photos/seed/10/400/400",
+        name: "Buku Catatan Kertas Daur Ulang",
+        partner: "Daur Kertas Co.",
+        price: "450 pts",
+        image: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?auto=format&fit=crop&q=80&w=400",
         rating: "4.9",
         sold: "500+"
     },
     {
         id: 3,
-        name: "Pot Bunga Daur Ulang",
-        partner: "Green Living",
-        price: "8.500 pts",
-        image: "https://picsum.photos/seed/11/400/400",
+        name: "Vas Bunga Kaca Hijau Estetik",
+        partner: "Kaca Kreasi",
+        price: "850 pts",
+        image: "https://images.unsplash.com/photo-1601633535925-e51c89f5bc51?auto=format&fit=crop&q=80&w=400",
         rating: "4.7",
         sold: "85"
     },
     {
         id: 4,
-        name: "Minyak Goreng 2L",
-        partner: "Koperasi Warga",
-        price: "30.000 pts",
-        image: "https://picsum.photos/seed/12/400/400",
+        name: "Pouch Serbaguna Kain Denim",
+        partner: "Denim Reborn",
+        price: "600 pts",
+        image: "https://images.unsplash.com/photo-1558024920-b41e1887dc32?auto=format&fit=crop&q=80&w=400",
         rating: "4.9",
         sold: "1k+"
     }

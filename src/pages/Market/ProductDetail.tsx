@@ -10,7 +10,7 @@ const ProductDetail: React.FC = () => {
             {/* Header / Product Image Area */}
             <div className="relative w-full aspect-square bg-surface-variant">
                 <img 
-                    src="https://picsum.photos/seed/14/400/400"
+                    src="https://images.unsplash.com/photo-1597484661643-2f5fef640df1?auto=format&fit=crop&q=80&w=400"
                     alt="Product" 
                     className="w-full h-full object-cover"
                 />
@@ -39,43 +39,39 @@ const ProductDetail: React.FC = () => {
                 
                 <div>
                     <div className="flex items-center gap-2 mb-2">
-                        <span className="bg-tertiary-container text-on-tertiary-container px-2 py-0.5 rounded font-label-button text-[11px]">Upcycle</span>
-                        <div className="flex items-center gap-1 text-[#F59E0B]">
-                            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-                            <span className="font-label-button text-[13px] text-on-surface">4.8 <span className="text-n600-secondary-text font-body-regular">(120 ulasan)</span></span>
-                        </div>
+                        <span className="bg-[#dcfce7] text-[#166534] px-2 py-0.5 rounded-full font-label-button text-[11px] flex items-center gap-1"><span className="material-symbols-outlined text-[12px]">verified</span> Verified UMKM</span>
+                        <span className="bg-surface-variant text-on-surface-variant px-2 py-0.5 rounded-full font-label-button text-[11px]">Stok: 12</span>
                     </div>
                     
-                    <h1 className="font-heading-1 text-[22px] text-on-surface leading-tight mb-2">Tas Tote Kain Perca Ramah Lingkungan</h1>
+                    <h1 className="font-heading-1 text-[22px] text-on-surface leading-tight mb-2 font-bold">Tas Tote Kanvas Daur Ulang</h1>
                     
                     <div className="flex items-center justify-between">
                         <div className="flex items-end gap-1">
-                            <span className="material-symbols-outlined text-primary text-[24px]">generating_tokens</span>
-                            <span className="font-display-lg text-[28px] text-primary font-bold leading-none">15.000</span>
-                            <span className="font-body-regular text-[14px] text-n600-secondary-text mb-1">pts</span>
+                            <span className="material-symbols-outlined text-primary text-[24px]">eco</span>
+                            <span className="font-display-lg text-[24px] text-primary font-bold leading-none">2,500</span>
+                            <span className="font-body-regular text-[14px] text-n600-secondary-text mb-0.5">Poin</span>
                         </div>
-                        <span className="font-body-regular text-[13px] text-n600-secondary-text">Terjual 150+</span>
                     </div>
                 </div>
 
                 <div className="h-[1px] w-full bg-n300-border my-2"></div>
 
                 {/* Partner Info */}
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between border border-n300-border rounded-[12px] p-3 shadow-[0_2px_8px_rgba(0,0,0,0.02)]">
                     <div className="flex items-center gap-3">
                         <div className="w-12 h-12 rounded-full bg-surface-variant overflow-hidden">
-                            <img src="https://i.pravatar.cc/150?img=12" alt="Partner" className="w-full h-full object-cover" />
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200" alt="Partner" className="w-full h-full object-cover" />
                         </div>
                         <div>
-                            <h3 className="font-heading-2 text-[15px] text-on-surface">EcoCraft Bandung</h3>
+                            <h3 className="font-heading-2 text-[15px] text-on-surface">Kriya Lestari Bali</h3>
                             <div className="flex items-center gap-1 text-n600-secondary-text">
                                 <span className="material-symbols-outlined text-[14px]">location_on</span>
-                                <span className="font-body-regular text-[12px]">Kota Bandung</span>
+                                <span className="font-body-regular text-[12px]">Denpasar, Bali</span>
                             </div>
                         </div>
                     </div>
-                    <button className="px-4 py-2 rounded-full border border-primary text-primary font-label-button text-[13px] hover:bg-primary/5 transition-colors">
-                        Kunjungi Toko
+                    <button className="text-n400-inactive hover:text-on-surface transition-colors">
+                        <span className="material-symbols-outlined text-[20px]">chevron_right</span>
                     </button>
                 </div>
 
@@ -83,26 +79,37 @@ const ProductDetail: React.FC = () => {
 
                 {/* Description */}
                 <div>
-                    <h3 className="font-heading-2 text-[16px] text-on-surface mb-2">Deskripsi Produk</h3>
+                    <h3 className="font-heading-2 text-[16px] font-bold text-on-surface mb-2">Deskripsi Produk</h3>
                     <p className="font-body-regular text-[14px] text-n600-secondary-text leading-relaxed">
-                        Tas tote bag unik yang dibuat dari 100% kain perca sisa industri garmen lokal. Setiap tas memiliki motif yang unik dan tidak ada yang sama persis. Sangat kuat untuk membawa laptop atau buku, sekaligus membantu mengurangi limbah tekstil di lingkungan kita.
-                        <br/><br/>
-                        Ukuran: 35 x 40 cm<br/>
-                        Material: Katun & Kanvas daur ulang
+                        Tas jinjing serbaguna yang dirancang untuk kebutuhan sehari-hari. Dibuat dari 100% serat kanvas hasil daur ulang limbah tekstil lokal. Sangat kuat, mudah dicuci, dan ramah lingkungan.
                     </p>
+                </div>
+                
+                <div className="border border-n300-border rounded-[12px] p-3 flex justify-between items-center mt-2 cursor-pointer hover:bg-surface-container-low transition-colors">
+                    <div className="flex items-center gap-2">
+                        <div className="bg-[#dcfce7] w-8 h-8 rounded-full flex items-center justify-center text-primary">
+                            <span className="material-symbols-outlined text-[18px]">history</span>
+                        </div>
+                        <span className="font-heading-2 text-[14px] font-bold">Jejak Sirkular</span>
+                    </div>
+                    <span className="material-symbols-outlined text-n400-inactive text-[20px]">expand_more</span>
                 </div>
             </div>
 
             {/* Bottom Action Bar */}
             <div className="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto bg-surface border-t border-n300-border p-4 flex gap-3 z-30 shadow-[0_-4px_16px_rgba(0,0,0,0.05)]">
-                <button className="w-[52px] h-[52px] rounded-xl border border-n300-border flex items-center justify-center text-on-surface hover:bg-surface-container-low transition-colors shrink-0">
-                    <span className="material-symbols-outlined text-[24px]">chat</span>
-                </button>
-                <button className="flex-1 bg-surface-variant text-on-surface-variant h-[52px] rounded-xl font-label-button text-[15px] hover:bg-[#cbd2e8] transition-colors">
-                    Beli Langsung
-                </button>
-                <button onClick={() => navigate('/checkout')} className="flex-1 bg-primary text-on-primary h-[52px] rounded-xl font-label-button text-[15px] flex items-center justify-center gap-2 shadow-sm hover:bg-[#005c3d] transition-colors active:scale-[0.98]">
-                    Tukar Poin
+                <div className="bg-[#f1f5f9] h-[48px] rounded-lg flex items-center justify-between px-3 min-w-[100px]">
+                    <button className="text-n600-secondary-text hover:text-on-surface transition-colors">
+                        <span className="material-symbols-outlined text-[20px]">remove</span>
+                    </button>
+                    <span className="font-body-regular text-[16px] mx-2">1</span>
+                    <button className="text-n600-secondary-text hover:text-on-surface transition-colors">
+                        <span className="material-symbols-outlined text-[20px]">add</span>
+                    </button>
+                </div>
+                <button onClick={() => navigate('/checkout')} className="flex-1 bg-[#006c49] text-on-primary h-[48px] rounded-lg font-label-button text-[14px] font-bold flex items-center justify-center gap-2 shadow-sm hover:bg-[#005c3d] transition-colors active:scale-[0.98]">
+                    <span className="material-symbols-outlined text-[20px]">shopping_cart_checkout</span>
+                    Tambah ke Keranjang
                 </button>
             </div>
 

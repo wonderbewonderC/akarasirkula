@@ -12,7 +12,7 @@ const Home: React.FC = () => {
             <div className="flex justify-between items-center px-lg pt-lg pb-4">
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-surface-variant border border-n300-border flex items-center justify-center overflow-hidden">
-                        <span className="font-body-regular text-[12px] text-n600-secondary-text">img</span>
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" alt="Profile" className="w-full h-full object-cover" />
                     </div>
                     <div>
                         <p className="font-body-regular text-[12px] text-n600-secondary-text">Selamat pagi,</p>
@@ -110,8 +110,8 @@ const Home: React.FC = () => {
                     <div className="flex gap-4 overflow-x-auto pb-4 hide-scrollbar -mx-lg px-lg">
                         {/* Item 1 */}
                         <Link to="/product/1" className="w-[160px] shrink-0 bg-surface rounded-[16px] border border-n300-border overflow-hidden hover:border-primary/50 transition-colors shadow-sm flex flex-col relative group">
-                            <div className="h-[140px] bg-[#d1d5db] relative flex items-center justify-center">
-                                <span className="font-body-regular text-[12px] text-n600-secondary-text">img</span>
+                            <div className="h-[140px] bg-[#d1d5db] relative overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1597484661643-2f5fef640df1?auto=format&fit=crop&q=80&w=400" alt="Tas Daur Ulang" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                                 <button className="absolute top-2 right-2 w-7 h-7 bg-white rounded-full flex items-center justify-center text-n400-inactive hover:text-[#F59E0B] shadow-sm z-10">
                                     <span className="material-symbols-outlined text-[16px]">favorite_border</span>
                                 </button>
@@ -127,8 +127,8 @@ const Home: React.FC = () => {
 
                         {/* Item 2 */}
                         <Link to="/product/2" className="w-[160px] shrink-0 bg-surface rounded-[16px] border border-n300-border overflow-hidden hover:border-primary/50 transition-colors shadow-sm flex flex-col relative group">
-                            <div className="h-[140px] bg-[#d1d5db] relative flex items-center justify-center">
-                                <span className="font-body-regular text-[12px] text-n600-secondary-text">img</span>
+                            <div className="h-[140px] bg-[#d1d5db] relative overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1601633535925-e51c89f5bc51?auto=format&fit=crop&q=80&w=400" alt="Pot PET" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                                 <button className="absolute top-2 right-2 w-7 h-7 bg-white rounded-full flex items-center justify-center text-n400-inactive hover:text-[#F59E0B] shadow-sm z-10">
                                     <span className="material-symbols-outlined text-[16px]">favorite_border</span>
                                 </button>
